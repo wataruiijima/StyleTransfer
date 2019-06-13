@@ -14,6 +14,8 @@
 		5241B10122B1087600E32FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5241B0FF22B1087600E32FDE /* LaunchScreen.storyboard */; };
 		5241B10C22B1087600E32FDE /* StyleTransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241B10B22B1087600E32FDE /* StyleTransferTests.swift */; };
 		5241B11722B1087600E32FDE /* StyleTransferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241B11622B1087600E32FDE /* StyleTransferUITests.swift */; };
+		5241B12522B1088300E32FDE /* MyStyleTransfer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5241B12422B1088300E32FDE /* MyStyleTransfer.mlmodel */; };
+		5241B12722B178A800E32FDE /* ThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241B12622B178A800E32FDE /* ThumbnailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5241B11222B1087600E32FDE /* StyleTransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StyleTransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5241B11622B1087600E32FDE /* StyleTransferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransferUITests.swift; sourceTree = "<group>"; };
 		5241B11822B1087600E32FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5241B12422B1088300E32FDE /* MyStyleTransfer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyStyleTransfer.mlmodel; sourceTree = "<group>"; };
+		5241B12622B178A800E32FDE /* ThumbnailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		5241B0F522B1087200E32FDE /* StyleTransfer */ = {
 			isa = PBXGroup;
 			children = (
+				5241B12422B1088300E32FDE /* MyStyleTransfer.mlmodel */,
 				5241B0F622B1087200E32FDE /* AppDelegate.swift */,
 				5241B0F822B1087200E32FDE /* ViewController.swift */,
 				5241B0FA22B1087200E32FDE /* Main.storyboard */,
 				5241B0FD22B1087600E32FDE /* Assets.xcassets */,
 				5241B0FF22B1087600E32FDE /* LaunchScreen.storyboard */,
 				5241B10222B1087600E32FDE /* Info.plist */,
+				5241B12622B178A800E32FDE /* ThumbnailViewController.swift */,
 			);
 			path = StyleTransfer;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5241B12522B1088300E32FDE /* MyStyleTransfer.mlmodel in Sources */,
 				5241B0F922B1087200E32FDE /* ViewController.swift in Sources */,
 				5241B0F722B1087200E32FDE /* AppDelegate.swift in Sources */,
+				5241B12722B178A800E32FDE /* ThumbnailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC7ZW95TJH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = StyleTransfer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC7ZW95TJH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = StyleTransfer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
